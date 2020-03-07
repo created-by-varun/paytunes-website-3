@@ -2,6 +2,13 @@ html {
     scroll-behavior: smooth;
   }
 
+body{
+    background: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .logo{
     font-style: italic;
     font-size: 2em;
