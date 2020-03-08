@@ -1,44 +1,54 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-body{
+body {
     background: url(https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.logo{
+.logo {
     font-style: italic;
     font-size: 2em;
 }
 
-.logo span{
+.logo span {
     color: red;
 }
 
-.nav-item{
+.nav-item {
     padding-right: 20px;
 }
 
-#partners{
-    background-image: linear-gradient(to right, rgb(206, 162, 112) , rgb(209, 209, 209));
+#partners {
+    background-image: linear-gradient(to right, rgb(206, 162, 112), rgb(209, 209, 209));
     padding: 30px;
     border-radius: 25px;
     box-shadow: 10px 10px 8px rgb(187, 183, 183);
     text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.459);
 }
 
-.text-shadow{
+.text-shadow {
     text-shadow: 1px 1px 1px black;
 }
 
-.hands-off{
-    padding: 30px;
-    background: url(https://images.unsplash.com/photo-1583330184846-a266f975ab58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+.hands-off {
+    padding: 20px;
+    background: url(https://s2.best-wallpaper.net/wallpaper/2560x1920/1711/Piano-keys-musical-theme_2560x1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border-radius: 20px;
+}
+
+.hands-off-text {
+    text-align: center;
+    color: rgb(214, 211, 211);
+    text-shadow: -1px -1px 1px black;
+    text-shadow: 1px 1px 1px black;
+}
+
+.hands-off-text>span {
+    color: red;
 }
