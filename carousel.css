@@ -80,6 +80,7 @@ body {
     }
   }
   
+  /* Fixed carousel image aspect ratio and size for mobile view */
   @media only screen and (max-width: 600px) {
     .carousel-item > img {
       height: 100%;
