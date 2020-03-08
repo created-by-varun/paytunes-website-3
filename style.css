@@ -33,3 +33,12 @@ body{
 .text-shadow{
     text-shadow: 1px 1px 1px black;
 }
+
+.hands-off{
+    padding: 30px;
+    background: url(https://images.unsplash.com/photo-1583330184846-a266f975ab58?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
