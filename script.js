@@ -50,10 +50,6 @@ class InfiniteSlider {
       window.requestAnimationFrame(this.controlAnimation.bind(this));
     }
   
-    halt() {
-      this._stop = true;
-      this._prevStop = false;
-    }
   
     go() {
       this._stop = false;
