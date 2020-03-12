@@ -1,9 +1,11 @@
-
 // Collapses the navigation bar after an item is seleced
 
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+
+
+/*==================== START INFINITE SLIDER ======================== */
 
 class InfiniteSlider {
     constructor(animTime = '10000', selector = '.slider', container = '#slider-container') {
@@ -49,7 +51,6 @@ class InfiniteSlider {
       /* loop animation endlesssly */
       window.requestAnimationFrame(this.controlAnimation.bind(this));
     }
-  
   
     go() {
       this._stop = false;
@@ -143,3 +144,4 @@ class InfiniteSlider {
       setTimeout(slider.ie11Fix.bind(slider), 1000);
     }
   });
+  /*==================== END INFINITE SLIDER ======================== */
